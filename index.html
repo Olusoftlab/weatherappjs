@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+      
+       <h1>Weather Forecast For Various Cities</h1> 
+
+       <main>
+ 
+              
+               
+              <form  method="POST">
+                  <input type="text" name="city-name" id="city-name" placeholder="Enter city name"    />
+                  <input  type="submit"  value="Enter" id="btn"  />   
+              </form>
+              
+            <div class="display" id="top">
+                 <h2>Description:<span id="myfetch"></span> </h2>
+            </div> 
+            <div class="display">
+                <h2>humidity:  <span id="myfetch-2"></span>%rh  </h2>
+            </div>
+            <div class="display">
+                <h2>Temp-min:  <span id="myfetch-3"></span><sup>o</sup>C </h2>
+            </div>
+            <div class="display">
+                <h2>Temp-max: <span id="myfetch-4"></span><sup>o</sup>C </h2>
+            </div>
+
+       </main>
+
+
+
+
+      <script   src="index.js" ></script>
+</body>
+</html>
